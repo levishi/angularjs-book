@@ -1,5 +1,5 @@
 // Create a module for our core AMail services
-var aMailServices = angular.module('AMail', []);
+var aMailServices = angular.module('AMail', ['ngRoute']);
 
 // Set up our mappings between URLs, templates, and controllers
 function emailRouteConfig($routeProvider) {
